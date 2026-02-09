@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Header } from './components/layout/Header';
 import { HeroSection } from './components/sections/HeroSection';
 import { SocialProof } from './components/sections/SocialProof';
