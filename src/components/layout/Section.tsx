@@ -12,8 +12,8 @@ export const Section: React.FC<SectionProps> = ({
     ...props
 }) => {
     const spacingClasses = {
-        default: 'py-16 md:py-24',
-        tight: 'py-12 md:py-16',
+        default: 'py-20 md:py-32',
+        tight: 'py-12 md:py-20',
         none: 'py-0',
     };
 

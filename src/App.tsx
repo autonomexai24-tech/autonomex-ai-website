@@ -1,9 +1,10 @@
 
+
 import { Header } from './components/layout/Header';
 import { HeroSection } from './components/sections/HeroSection';
-import { SocialProof } from './components/sections/SocialProof';
 import { FeaturePillars } from './components/sections/FeaturePillars';
 import { TrustSection } from './components/sections/TrustSection';
+import { FinalCTA } from './components/sections/FinalCTA';
 import { Footer } from './components/layout/Footer';
 
 function App() {
@@ -12,9 +13,9 @@ function App() {
       <Header />
       <main>
         <HeroSection />
-        <SocialProof />
         <FeaturePillars />
         <TrustSection />
+        <FinalCTA />
       </main>
       <Footer />
     </div>
